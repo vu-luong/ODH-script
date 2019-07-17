@@ -60,7 +60,7 @@ class encn_Oxford {
                     sentence += `<li class='sent'><span class='eng_sent'>${enText}</span></li>`;
                 }
             }
-            definition += sentence ? `<ul class="sents">${sentence}</ul>` : '';
+            // definition += sentence ? `<ul class="sents">${sentence}</ul>` : '';
             return definition;
         }
         const maxexample = this.maxexample;
