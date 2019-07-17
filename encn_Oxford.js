@@ -44,7 +44,7 @@ class encn_Oxford {
         function buildDefinitionBlock(exp, pos, defs) {
             if (!defs || !Array.isArray(defs) || defs.length < 0) return '';
             let definition = '';
-            let sentence = '';
+            let sentence = 'Den day roi';
             let sentnum = 0;
             for (const def of defs) {
                 if (def.text) definition += `<span class='tran'><span class='eng_tran'>${def.text}</span></span>`;
